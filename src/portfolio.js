@@ -69,14 +69,14 @@ export const skillsSection = {
         skillName: 'nodejs',
         fontAwesomeClassname: 'logos:nodejs-icon',
       },
-      {
-        skillName: 'flutter',
-        fontAwesomeClassname: 'logos:flutter',
-      },
-      {
-        skillName: 'swift',
-        fontAwesomeClassname: 'vscode-icons:file-type-swift',
-      },
+      // {
+      //   skillName: 'flutter',
+      //   fontAwesomeClassname: 'logos:flutter',
+      // },
+      // {
+      //   skillName: 'swift',
+      //   fontAwesomeClassname: 'vscode-icons:file-type-swift',
+      // },
       {
         skillName: 'npm',
         fontAwesomeClassname: 'vscode-icons:file-type-npm',
@@ -140,7 +140,7 @@ export const educationInfo = [
 
 export const experience = [
   {
-    role: 'Senior Front-end Developer',
+    role: 'Front-end Developer',
     company: 'ThinkBig',
     companylogo: ThinkBig,
     date: 'April 2021 – Present',
@@ -155,7 +155,7 @@ export const experience = [
     role: 'Front-End Developer',
     company: 'Appsec Academy',
     companylogo: appsec,
-    date: '2020 – 2021',
+    date: 'November 2020 – April 2021',
     desc:
       'AppSec Academy is a company compromising of teaching Software Engineering students and providing SAS services.',
   },
