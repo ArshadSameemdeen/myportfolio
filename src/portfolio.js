@@ -7,7 +7,7 @@ import ThinkBig from './assets/img/icons/common/iconTB.png'
 export const greetings = {
     "name": "Arshad Sameemdeen",
     "title": "Hi all, I'm Arshad",
-    "description": "A passionate Fronnt-end Developer and a UI/UX Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Python / Django / Flask and some other cool libraries and frameworks and Cross Platform Mobile Apps With Flutter.",
+    "description": "A passionate Front-end Developer and a UI/UX Designer having an experience of building Web and Mobile applications taking part in many projects and creating own applications.",
     "resumeLink": "https://cv.arshad.ga"
 }
 
@@ -111,16 +111,28 @@ export const skillsSection = {
 
 export const SkillBars = [
     {
-      Stack: 'Frontend/Design', //Insert stack or technology you have experience in
-      progressPercentage: '90', //Insert relative proficiency in percentage
+      Stack: 'Html/CSS/JavaScrpit', //Insert stack or technology you have experience in
+      progressPercentage: '100', //Insert relative proficiency in percentage
     },
     {
-      Stack: 'Backend',
+      Stack: 'React JS',
+      progressPercentage: '90',
+    },
+    {
+      Stack: 'Angular',
+      progressPercentage: '80',
+    },
+    {
+      Stack: 'Python', //Insert stack or technology you have experience in
+      progressPercentage: '80', //Insert relative proficiency in percentage
+    },
+    {
+      Stack: 'PHP',
       progressPercentage: '70',
     },
     {
-      Stack: 'Programming',
-      progressPercentage: '60',
+      Stack: 'Java',
+      progressPercentage: '90',
     },
   ]
 
@@ -173,6 +185,10 @@ export const projects = [
   {
     name: "Explorayl",
     desc: "A treasure Hunting Mobile Application for travelers in the city of London",
+    link: {
+      name: "Code",
+      url: "https://github.com/ArshadSameemdeen/Xplorayl"
+    }
   },
   {
     name: "Think Big",
@@ -183,15 +199,27 @@ export const projects = [
     }
   },
   {
-    name: "Morvel",
-    desc: "A Mobiel Application which recommends movies and novels for the users, using the user data stored in the database",
-  },
-  {
     name: "Github Most Starred Repo",
     desc: "A website which fetches data for the github api, and displays the most starred github reposotories in the past 30 days",
     link: {
-      name: "URL",
+      name: "Code",
       url: "https://github.com/ArshadSameemdeen/most-starred-github-repo"
+    }
+  },
+  {
+    name: "DociTopi",
+    desc: "A Webb Application which classifies documents and predicts the topi cof the document.",
+    link: {
+      name: "Code",
+      url: "https://github.com/ArshadSameemdeen/DociTopi"
+    }
+  },
+  {
+    name: "Morvel",
+    desc: "A Mobiel Application which recommends movies and novels for the users, using the user data stored in the database",
+    link: {
+      name: "Code",
+      url: "https://github.com/ArshadSameemdeen/Morvel"
     }
   }
 ]
