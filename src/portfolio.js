@@ -127,10 +127,6 @@ export const SkillBars = [
       progressPercentage: '80', //Insert relative proficiency in percentage
     },
     {
-      Stack: 'PHP',
-      progressPercentage: '70',
-    },
-    {
       Stack: 'Java',
       progressPercentage: '90',
     },
