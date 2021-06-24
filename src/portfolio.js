@@ -160,14 +160,6 @@ export const experience = [
     ],
   },
   {
-    role: 'Front-End Developer',
-    company: 'Appsec Academy',
-    companylogo: appsec,
-    date: 'November 2020 – April 2021',
-    desc:
-      'AppSec Academy is a company compromising of teaching Software Engineering students and providing SAS services.',
-  },
-  {
     role: 'Software Engineer',
     company: 'IFS',
     companylogo: ifs,
